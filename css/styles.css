@@ -1,0 +1,94 @@
+body {
+    padding: 60px 40px;
+    margin: 0px;
+}
+
+.container {
+    width: 80%;
+    /* Center the DIV horizontally */
+    margin: 0 auto;
+}
+
+.fixed-header,
+.fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.fixed-header {
+    top: 0;
+}
+
+.fixed-footer {
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Some more styles to beutify this example */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+#heading {
+    padding: 10px;
+    background-color: #F4C2C2;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+p {
+    color: hotpink;
+    text-decoration: none;
+    font-size: large;
+}
+
+#divColor {
+    background: green;
+    height: 200px;
+    width:300px;
+    border-radius: 15px;
+    padding:20px;
+    font-size:22px;
+    color:#fff;   
+}
+.btn{
+    background-color: blue;
+    border: #2e6da4;
+    font-family: Arial, Geneva, Arial, Helvetica,  sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 4px;
+    line-height: 1.5;
+    text-decoration:none;
+}
+
+.new-class{
+    background-color: orange;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.toggle-color{
+    background-color: aliceblue;
+}
+
+.list {
+    font-family: 'Courier New', Courier, monospace
+}
+
+#focus{
+    font-size: 20px
+}
